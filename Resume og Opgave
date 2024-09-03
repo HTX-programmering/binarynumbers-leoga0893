@@ -1,0 +1,20 @@
+Text Indhold:
+
+Digitalt er overgang fra 0 til 1.
+Digital værdi kan kun være 0 og 1.
+Læser tal fra højere til venstre.
+Cifrets position bestemmer hvilken værdi tallet har.
+Analog er den 'opposite' af Digital.
+En Byte har 8 linjer/celler, og hvert linje er en bit.
+Den bit som ligger højest til højere er den laveste værdi (1'ere).
+Værdi rækkefølge: 128|64|32|16|8|4|2|1.
+For eksempel 1010 har kun 4 cifre, og da vi læser fra højere til venstre sætter vi 1010 under sidste 4 værdier i rækkefølge
+Hvis vi nu aflæser 1010 nu, su ser vi at vi har 1 8'ere, 0 4'ere, 1 2'ere og 0 1'ere, dermed er 1010 = 10
+Bit helt til højere 'Paritets bit' er den least significant bit, og den fortæller os om tallet er lige eller ulige.
+Bit helt til venstre 'The most significant bit' er som navnen siger den most significant, da den benyttes til at angive om den er et negative eller et positive værdi
+Maksimal værdi er 127|-128 og antallet af forskellige værdier er 256
+
+Opgave:
+Hvis hendes side piece/unge fyr skulle komme klokken 3, skal der sættes lys i det første to vindueren, fordi 1+2  = 3
+Hvis hendes side piece/unge fyr skulle komme klokken 5, skal der sættes lys i den tredje og første vindue, fordi 4+1  = 5
+Hvis hendes side piece/unge fyr skulle komme klokken 10, skal der sættes lys i den fjerd og anden vindue, fordi 8+2  = 10
